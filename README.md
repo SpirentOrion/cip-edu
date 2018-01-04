@@ -32,7 +32,7 @@ Scan this document. Cherry-pick areas and resources. Learn. Contribute back.
 
 ### Please Contribute!
 
-A list like this is never be complete. Please add to it and get your name on the
+A list like this could never be complete. Please add to it and get your name on the
 contributors list! Or fill in some of the sparse spots below. You can do this by
 forking the repository, committing a change, and opening a pull request. Don't
 know what a pull request is or how they work? Here's a guide:
