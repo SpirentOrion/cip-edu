@@ -132,7 +132,7 @@ You've got to know the difference between a process, thread, and green thread
 (among other things). But you also need to know what your language runtime
 offers in terms of concurrency models and primitives. It is difficult to find
 one reference that surveys the entire range of concurrent programming models.
-You could start by constrasting [shared memory
+You could start by contrasting [shared memory
 approaches](https://en.wikipedia.org/wiki/Shared_memory) vs [message-passing
 approaches](https://en.wikipedia.org/wiki/Message_passing). Shared memory will
 tend to lead you into explorations of threads and synchronization primitives.
@@ -163,10 +163,10 @@ to know in bite-sized pieces. And then you'll be ready to reach for ANTLR4 or
 some other parser generator library.
 
 Finite state machines: Most of us know from reading RFCs that state machines
-form the basis of many protocols. But they're useful for modelling all sorts of
+form the basis of many protocols. But they're useful for modeling all sorts of
 processes and computations -- especially those that have to interact with the
 outside world via I/O. We've probably all written or maintained code that's
-trying to manage this sort of thing ad hoc. Without the rigor of state machines,
+trying to manage this sort of thing ad-hoc. Without the rigor of state machines,
 how do you make this sort of code reliable and maintainable? Start with the
 [Wikipedia article](https://en.wikipedia.org/wiki/Finite-state_machine), and at
 least read through the "Classification" section. You can spider out from there.
@@ -269,7 +269,7 @@ inspiration for making a bigger system impact when you're debugging.
 
 Code benchmarking: It's not exactly debugging, but since we often have to deal
 with performance problems that manifest themselves as CRs, it is good to know
-what's available in your language for microbenchmarking. Check out [Google's
+what's available in your language for micro-benchmarking. Check out [Google's
 benchmark library](https://github.com/google/benchmark) for C++, the [Golang
 profiler](https://blog.golang.org/profiling-go-programs), or [Python's profile
 packages](https://docs.python.org/2/library/profile.html).
