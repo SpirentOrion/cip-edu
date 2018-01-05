@@ -254,6 +254,11 @@ it reads a bit differently. But it is often quoted when it comes to reliability
 engineering. It's interesting to think about if you're dealing with system
 correctness when people are involved.
 
+["Systems Performance: Enterprise and the Cloud"](http://a.co/56Gy3Lv): This is
+a huge book that is packed with good techniques for understanding and improving
+system performance. Written by Brendan Gregg, ex-Sun engineer, now at Netflix.
+Creator of latency/utilization heatmaps and flamegraphs. Also a DTrace expert.
+
 ### Systematic Debugging
 
 Systematic debugging: Dan Luu believes that [systematic debugging can be
@@ -298,39 +303,86 @@ Design patterns: You probably already have seen ["Gang of
 Four"](http://a.co/eSC1not) but if not, you need to be familiar with this
 material in order to deal with STC's C++ codebase.
 
-Debugging and profiling tools (gdb, gprof, valgrind, perf)
+Debugging and profiling tools (gdb, gprof, valgrind, perf): TODO
 
-X86 assembly language
+X86 assembly language: TODO
 
-ARM assembly language
+ARM assembly language: TODO
 
-Python and Bash shell scripting
+Python scripting: TODO
 
-SCons internals ([builders, actions, and emitters](http://scons.org/doc/production/HTML/scons-user/ch18.html))
+Bash scripting: [Google's Shell Style
+Guide](https://google.github.io/styleguide/shell.xml) has really useful advice,
+not the least of which is "Shell should only be used for small utilities or
+simple wrapper scripts". If you're working on shell scripts that will be
+committed to any repository anywhere, then you should also get yourself a copy
+of [shellcheck](https://github.com/koalaman/shellcheck).
 
-Pros and cons of various encodings (JSON, YAML, XML, Protobuf)
+Pros and cons of various encodings (JSON, YAML, XML, Protobuf): The book goes
+well beyond encodings, but Chapter 4 of [Designing Data-Intensive
+Applications](http://a.co/gnvGlRm) contains a good discussion about when and why
+you'd want to use certain encodings. The rest of the book is good too, and the
+author, Martin Kleppmann, has some great conference talks.
 
-Basic use of [ZeroMQ](http://zguide.zeromq.org/page:all)
+ZeroMQ: ZeroMQ is a networking library that goes well beyond basic BSD socket
+operations and also solves problems at higher layers of abstraction. Its
+[guide](http://zguide.zeromq.org/page:all) is a "must read" if you're going to
+do any work with ZeroMQ.
 
-Basic and intermediate use of Git
+Basic and intermediate use of Git: Git has a long tail in terms of tips and
+tricks, but you can come up to speed for basic usage with [Pro
+Git](https://git-scm.com/book/en/v2), available for free online.
 
-Linux package management (.rpm and .deb)
+SCons internals: If you're extending our SCons build environment in any
+non-trivial way, then you need to understand [builders, actions, and
+emitters](http://scons.org/doc/production/HTML/scons-user/ch18.html).
+
+Linux package management (.rpm and .deb): Linux packaging is a solved problem.
+Check out the [RPM Packaging Guide](https://rpm-packaging-guide.github.io/) for
+RHEL/Centos systems and the [Debian Packaging
+Tutorial](https://www.debian.org/doc/manuals/packaging-tutorial/packaging-tutorial.en.pdf)
+for Debian/Ubuntu systems.
 
 ### Firmware-Specific	
 
-Basics of the major Linux subsystems
+Basics of the major Linux subsystems: TODO
 
-DPDK and PCI hardware/DMA interfacing
+DPDK and PCI hardware/DMA interfacing: TODO
 	
 ### Web-Specific	
 
-Resource-based API design (REST APIs)
+Resource-based API design (REST APIs): Resource-based APIs are a different ball
+game compared to RPC-style interfaces. "REST" was discovered by Roy Fielding and
+is introduced in [Chapter 5 of his PhD
+Thesis](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm).
+This an academic description of an architectural style. As far as the real world
+goes, the devil is in the details. You can read about our opinionated choices in
+the [Orion REST API
+Standards](https://github.com/SpirentOrion/orion-api/blob/master/doc/api/api-standards.md).
 
-Distributed computing models and approaches (including SOA)
+Distributed computing models and approaches: [Designing Distributed Control
+Systems](http://a.co/6Lcp5p4) takes a pattern-based approach to reasoning about
+distributed systems. It won't keep you out of trouble but it will definitely
+give you a broad overview. Then you can reach for "Release It!" to help keep you
+out of trouble. You may have seen the ["Glider Book"](http://a.co/7Rpw4vY) in
+the bookstore and thought that it had something to do with release engineering.
+It's nothing of the sort. The [Second Edition](http://a.co/5gNSesh) was released
+in January 2018, de-emphasizing capacity management and updating for cloud
+deployments.
 
 Fundamentals of SSL/TLS
 
-Relational database schemas (third normal form vs star schema) and data access (PostgreSQL)
+Relational databases: Schaum's series are a good beginner resource with large
+numbers of examples and solved problems: [Fundamentals of Relational
+Databases](http://a.co/g1YeTjq) and [Fundamentals of SQL
+Programming](http://a.co/hZOHTBN). For further, in-depth reading, check out
+[Fundamentals of Database Systems](http://a.co/15RmOLj) or [Database Management
+Systems](http://a.co/3a2ODCY).
+
+Data warehousing and star schemas: These warrant a separate set of resources.
+Start with [The Star
+Schema](http://www.vertabelo.com/blog/technical-articles/data-warehouse-modeling-the-star-schema)
+and related articles in that blog.
 
 Time-series/metrics databases (InfluxDB, Prometheus)
 
@@ -356,8 +408,8 @@ TODO
 
 * Barry Andrews
 * Cliff Cordeiro
-* Eric Green
 * David Joyner
 * Rahul Patel
 * Timmons Player
+* Vasu Sankaran
 * Brian Silverman
