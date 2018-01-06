@@ -205,8 +205,12 @@ is a great place to start.
 
 ["Fallacies of Distributed
 Systems"](https://pages.cs.wisc.edu/~zuyu/files/fallacies.pdf): Most modern
-systems involve more than one CPU and are thus distributed systems. This paper
-will give you an appreciation for all the things that ~~can~~ will go wrong.
+systems involve more than one CPU and are thus distributed systems. Assumptions
+that we might make on single-node systems no longer hold. Also check out the
+follow-up, ["The Network is
+Reliable"](http://www.bailis.org/papers/partitions-queue2014.pdf) which unpacks
+the top fallacy. These papers will give you an appreciation for all the things
+that ~~can~~ will go wrong.
 
 ["End-to-End Arguments in System
 Design"](http://web.mit.edu/Saltzer/www/publications/endtoend/endtoend.pdf).
@@ -370,7 +374,7 @@ It's nothing of the sort. The [Second Edition](http://a.co/5gNSesh) was released
 in January 2018, de-emphasizing capacity management and updating for cloud
 deployments.
 
-Fundamentals of SSL/TLS
+Fundamentals of SSL/TLS: TODO
 
 Relational databases: Schaum's series are a good beginner resource with large
 numbers of examples and solved problems: [Fundamentals of Relational
@@ -384,13 +388,19 @@ Start with [The Star
 Schema](http://www.vertabelo.com/blog/technical-articles/data-warehouse-modeling-the-star-schema)
 and related articles in that blog.
 
-Time-series/metrics databases (InfluxDB, Prometheus)
+Time-series/metrics databases (InfluxDB, Prometheus): TODO
 
-Cloud platform basics (AWS, Azure, GCE, OpenStack)
+Cloud platform basics (AWS, Azure, GCE, OpenStack): TODO
 
-["Twelve Factor Apps"](https://12factor.net/)
+["Twelve Factor Apps"](https://12factor.net/): This document makes 12
+recommendations for software that make applications easier to run as a service
+(i.e. in a cloud environment).
 
-["Dapper, A Large Scale Distributed Systems Tracing Infrastructure"](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36356.pdf)
+["Dapper, A Large Scale Distributed Systems Tracing
+Infrastructure"](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36356.pdf):
+How can you effectively trace API requests in a distributed system? This paper
+describes how Google does it. Many open-source approaches have been inspired by
+this.
 	
 ### Soft skills	
 
