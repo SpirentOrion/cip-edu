@@ -374,6 +374,14 @@ It's nothing of the sort. The [Second Edition](http://a.co/5gNSesh) was released
 in January 2018, de-emphasizing capacity management and updating for cloud
 deployments.
 
+The log as a unifying abstraction: Think database transaction logs, not
+`syslog`-style logs, and not actually part of a database. Written by the Kafka
+architect, ["The Log: What every software engineer should know about real-time
+data's unifying
+abstraction"](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying)
+is a worthwhile read for anyone designing a system that processes any kind of
+events.
+
 Fundamentals of SSL/TLS: TODO
 
 Relational databases: Schaum's series are a good beginner resource with large
@@ -404,7 +412,7 @@ this.
 	
 ### Soft skills	
 
-Time/task management and efficiency
+Time/task management and efficiency: TODO
 
 ---
 
