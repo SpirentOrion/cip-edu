@@ -351,7 +351,17 @@ for Debian/Ubuntu systems.
 
 Basics of the major Linux subsystems: TODO
 
-DPDK and PCI hardware/DMA interfacing: TODO
+DPDK: Most of the Spirent drivers are now DPDK (Data Plane Development Kit) based. This is a user
+space framework for poll mode drivers and other efficient APIs for managing data streams. 
+It's written in 'C'. Originally started by Intel it only supported x86 but since then has been
+adopted by the wider community and supports other processor architectures.
+The online documentation is now fairly readable [DPDK Programmers Guide](http://dpdk.org/doc/guides/prog_guide/).
+
+Kernel Drivers: Anyone tackling a Linux Kernel driver must read Linux Device Drivers (O'Reilly publishing.
+Corbet, Rubini and Kroah-Hartman). It covers simple char drivers, debugging techniques, memory, interrupts,
+PCI and netdevices to name a few. 
+[Linux Device Drivers](http://www.oreilly.com/openbook/linuxdrive3/book/index.html).
+
 	
 ### Web-Specific	
 
