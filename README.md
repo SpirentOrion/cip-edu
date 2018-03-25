@@ -347,6 +347,16 @@ RHEL/Centos systems and the [Debian Packaging
 Tutorial](https://www.debian.org/doc/manuals/packaging-tutorial/packaging-tutorial.en.pdf)
 for Debian/Ubuntu systems.
 
+Machine Learning and Deep Learning:<br />
+*Machine Learning*: a set of models, such as Decision Tree, Support Vector Machine, to help machine to "learn" with data. You can find books like [this](https://www.amazon.com/s/ref=sr_st_review-rank?keywords=machine+learning&fst=p90x%3A1&rh=i%3Aaps%2Ck%3Amachine+learning&qid=1521939702&sort=review-rank) one for it.<br />
+*scikit-learn*: a free Python machine learning library to start for machine learning. You can get the tutorial at  [here](http://scikit-learn.org/stable/tutorial/index.html) <br />
+*pandas*: an open-source python library of data structures and data analysis tools to work with scikit-learn and TensorFlow, you can get the tutorial at [here](http://pandas.pydata.org/pandas-docs/stable/tutorials.html) <br />
+*NumPy*: a Python library supporting large, multi-dimensional arrays and matrices, you can get the tutorial at  [here](https://docs.scipy.org/doc/numpy-dev/user/quickstart.html) <br />
+*Matplotlib*: a Python 2D plotting library，you can get the tutorial at  [here](https://matplotlib.org/tutorials/index.html) <br />
+*Deep Learning*: a part of machine learning, which use neutral network. You can get a classic book at [here](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618/ref=sr_1_4?s=books&ie=UTF8&qid=1521939413&sr=1-4&keywords=deep+learning&dpID=61fim5QqaqL&preST=_SX218_BO1,204,203,200_QL40_&dpSrc=srch)
+*TensorFlow*: an open-source software library from Google for Deep Learning, such as Neutral Network, it is a good start point for Deep Learning and you can get the tutorial at [here](https://www.tensorflow.org/tutorials/) <br />
+*TFLearn*: a Deep learning library featuring a higher-level API for TensorFlow， which make it easier to build TensorFlow models. You can get the tutorial at [here](http://tflearn.org/tutorials/) <br />
+
 ### Firmware-Specific	
 
 Basics of the major Linux subsystems: TODO
