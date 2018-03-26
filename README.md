@@ -347,8 +347,13 @@ RHEL/Centos systems and the [Debian Packaging
 Tutorial](https://www.debian.org/doc/manuals/packaging-tutorial/packaging-tutorial.en.pdf)
 for Debian/Ubuntu systems.
 
-Machine Learning and Deep Learning:<br />
-For novices to *Machine Learning* and *Deep Learning* Andrew Ng's lecture [machine learning](https://www.coursera.org/learn/machine-learning/home/info) is a very good point to start. If you want to go further on deep learning after the lecture, this book [Deep Learning](https://www.amazon.com/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618/ref=sr_1_1?s=books&ie=UTF8&qid=1522068003&sr=1-1&keywords=deep+learning&dpID=61fim5QqaqL&preST=_SX218_BO1,204,203,200_QL40_&dpSrc=srch) is strongly recommended. And if you want to start on some specific fields, the tutorial sections of scikit-learn/nltk/TensorFlow/TFlearn provide a lot of examples.
+Machine learning and deep learning: For novices to machine learning and deep
+learning, Andrew Ng's [Coursera course on machine
+learning](https://www.coursera.org/learn/machine-learning/home/info) is a very
+good point to start. If you want to go further on deep learning after the
+lecture, the book [Deep Learning](http://a.co/3fFwgBI) is strongly recommended.
+If you want to learn specific tools, the tutorial sections of scikit-learn,
+nltk, TensorFlow, and TFlearn provide a lot of examples.
 
 ### Firmware-Specific	
 
@@ -439,8 +444,10 @@ TODO
 
 * Barry Andrews
 * Cliff Cordeiro
+* Haijun Deng
 * David Joyner
 * Rahul Patel
+* Matt Philpott
 * Timmons Player
 * Vasu Sankaran
 * Brian Silverman
