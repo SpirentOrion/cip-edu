@@ -436,7 +436,21 @@ Time/task management and efficiency: TODO
 
 ## Hardware Subject Areas
 
-TODO
+### High Speed Serial IO Basics
+
+["SerialIO"](https://www.xilinx.com/publications/archives/books/serialio.pdf): Free Book from Xilinx explaining the basics of high speed IO which are very important to understanding Layer 1 in High Speed Ethernet
+
+### Xilinx FPGA Design Methodology
+
+["UltraFast Design Methodology"](https://www.xilinx.com/support/documentation/sw_manuals/xilinx2018_3/ug949-vivado-design-methodology.pdf): Manual from Xilinx explaning their UltraFast Design methodology
+
+### Xilinx Training Materials
+
+["Xilinx Training"](https://xilinxprod-catalog.netexam.com/): Link to Xilinx Training materials. Everything from manuals to videos and live online classrooms
+
+### System Verilog Resources
+
+
 
 ---
 
@@ -451,3 +465,4 @@ TODO
 * Timmons Player
 * Vasu Sankaran
 * Brian Silverman
+* Robert Bruck
